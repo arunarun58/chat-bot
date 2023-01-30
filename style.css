@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: rgb(56, 240, 0);
+}
+
+.container {
+    height: 60vh;
+    width: 60vh;
+   
+    
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    outline: 1px solid black;
+}
+
+.message_area {
+    margin: 0 auto;
+    position: sticky;
+    outline: 2px solid black;
+    height: 85%;
+    width: 90%; 
+    top: 5%;   
+    background-color: rgb(243, 243, 248);
+    overflow-y: scroll;
+}
+
+
+input {
+    width: 80%;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 28px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    writing-mode: sideways-lr;
+    word-wrap: break-word;
+    
+}
+
+
+
+
+.material-symbols-outlined {
+    position: relative;
+    top: 1.8%;
+    left: 1%;
+    height: 25px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+  
+    font-variation-settings:
+  'FILL' ,
+  'wght' 700,
+  'GRAD' 1,
+  'opsz' 46
+}
+
+
+.material-symbols-outlined:hover {
+    background-color: rgb(53, 9, 95);
+    color: white;
+}
+
+.user-message {
+    padding: 0px 30px 10px 10px;
+    color: black;
+    text-align: right;
+    
+}
+
+.bot-message {
+    padding: 0px 30px 10px 10px;
+    color: black;
+    text-align: left;
+    
+    
+    
+}
+
+
+
+
+
+
+
+/*document.getElementById("user_message").innerHTML += `<p class="user-message">${userMessage}</p>`*/
